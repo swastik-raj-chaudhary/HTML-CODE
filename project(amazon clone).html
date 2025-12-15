@@ -1,0 +1,104 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Amazon Clone</title>
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+    .header {
+        background-color: #131921;
+        color: white;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .search-box {
+        width: 50%;
+        padding: 8px;
+    }
+
+    .products {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+    }
+
+    .card {
+        background-color: white;
+        width: 200px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .card button {
+        background-color: #f0c14b;
+        border: none;
+        padding: 8px;
+        cursor: pointer;
+    }
+
+    .footer {
+        background-color: #131921;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+
+</head>
+<body>
+<div class="header">
+    <div class="logo">Amazon</div>
+    <input class="search-box" type="text" placeholder="Search products">
+    <div>Cart</div>
+</div>
+
+<div class="products">
+    <div class="card">
+        <img src="https://imgs.search.brave.com/oLXyGzoZkONeOw4aVaOp-OlKDfrRbgSw9NMa2S1dqeU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE2/MjM5OTgwMjE2NjEt/ZGM3NTU1YjIyMTNk/P2ZtPWpwZyZxPTYw/Jnc9MzAwMCZpeGxp/Yj1yYi00LjEuMCZp/eGlkPU0zd3hNakEz/ZkRCOE1IeHpaV0Z5/WTJoOE5ueDhkM0pw/YzNRbE1qQjNZWFJq/YUh4bGJud3dmSHd3/Zkh4OE1BPT0" alt="Product">
+        <h3>Product 1</h3>
+        <p>$999</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://imgs.search.brave.com/cADzbNQ2meNajdrP89VUBkGXNz9RrOHiAACiWo0DMIY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/dGl0YW4uY28uaW4v/ZHcvaW1hZ2UvdjIv/QktERF9QUkQvb24v/ZGVtYW5kd2FyZS5z/dGF0aWMvLS9TaXRl/cy10aXRhbi1tYXN0/ZXItY2F0YWxvZy9k/ZWZhdWx0L2R3ZmU1/YjQxY2IvaW1hZ2Vz/L1RpdGFuL0NhdGFs/b2cvMTgyNVNNMTFf/MS5qcGc_c3c9MzYw/JnNoPTM2MA" alt="Product">
+        <h3>Product 2</h3>
+        <p>$1499</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://imgs.search.brave.com/4PoTJVVTO82KjjqZ7Fk0y4rpsOMV6FghyMgCS3hMfl4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/c29uYXRhd2F0Y2hl/cy5pbi9kdy9pbWFn/ZS92Mi9CS0REX1BS/RC9vbi9kZW1hbmR3/YXJlLnN0YXRpYy8t/L1NpdGVzLXRpdGFu/LW1hc3Rlci1jYXRh/bG9nL2RlZmF1bHQv/ZHdhOTMxYzkxYy9p/bWFnZXMvU29uYXRh/L0NhdGFsb2cvNzcx/MDVOTTA5V18xLmpw/Zz9zdz0zNjAmc2g9/MzYw" alt="Product">
+        <h3>Product 3</h3>
+        <p>$1999</p>
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+<div class="footer">
+   Amazon Clone Website
+</div>
+
+</body>
+</html>
